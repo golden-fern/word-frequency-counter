@@ -1,6 +1,5 @@
 Only compatible with Windows currently. 
-Supported languages: English
-Working on: Support for Spanish and framework to support other languages, Creation of a .exe file that runs in command prompt for easy use
+Supported languages: English, Spanish
 
 How to use:
 CURRENTLY THIS PROGRAM DOES NOT HAVE A .exe FILE! I AM WORKING ON THIS.
