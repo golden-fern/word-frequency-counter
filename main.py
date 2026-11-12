@@ -37,10 +37,9 @@ def select_language():
 
     lang = input("Language/s: ")
     if "en" in lang:
-        allowed_chars.append(allowed_chars_en)
+        allowed_chars.extend(allowed_chars_en)
     if "es" in lang:
-        allowed_chars.append(allowed_chars_es)
-        
+        allowed_chars.extend(allowed_chars_es)      
 
 active = True
 while active:
