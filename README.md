@@ -5,7 +5,7 @@ How to use:
 CURRENTLY THIS PROGRAM DOES NOT HAVE A .exe FILE! I AM WORKING ON THIS.
 You will have to run it on a code executor. I recommend VSCode.
 1. Create a new folder somewhere on your computer. I recommend Desktop. Don't use a folder in OneDrive, that can mess some things up with VSCode.
-2. Put main.py in the folder you made.
+2. Unzip the downloaded .zip from GitHub into that folder. To download the zip, click Code and then Download as Zip.
 3. Put all the files you want to count the frequency of in the folder as .txt files. Make sure these files have no empty lines, as those will be counted as a word.
 4. Open VSCode and click file>open folder and open the folder you made.
 5. Run main.py. Make sure you have the python extension installed or it may not work. You will have to trust the workspace in VSCode for it to run.
