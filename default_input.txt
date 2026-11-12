@@ -1,1 +1,1 @@
-Example Sentence. These are banned characters: /,.<>\| and will not show up in the output. 
+Example Sentence. These are banned characters: /,.<>\| and will not show up in the output. áéíóúñ
