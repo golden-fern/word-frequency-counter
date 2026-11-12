@@ -1,4 +1,15 @@
-Supported languages: English, Spanish
+Supported languages: English/en, Spanish/es
+
+Instructions for use from release:
+1. Double-click the .exe file to run it.
+2. When prompted to enter a language, use the 2-letter language codes IN LOWERCASE. en for English, es for Spanish, etc. You can enter as many language codes as you would like.
+3. When prompted to enter a filepath, enter the FULL LOCATION OF THE FILE ON YOUR PC. 
+     a. I recommend making a folder somewhere on your PC to store your .txt files in. 
+     b. The filepath should be something like "C:\textfiles\file.txt". 
+     c. DO NOT INCLUDE THE QUOTATION MARKS IF YOU USE WINDOWS' BUILT IN "Copy As Path" FEATURE. THE PROGRAM WILL CRASH.
+     d. Make sure the filepath is spelled correctly. If the program cannot find your file, it will crash.
+4. The output will be saved as a .json file in the same location as your .txt file.
+5. You can close the program by simply exiting out of the window.
 
 How to run with run.bat(WINDOWS ONLY):
 1. Download the source code as a .zip file.
