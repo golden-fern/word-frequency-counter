@@ -13,6 +13,12 @@ allowed_chars_es = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
                     "8", "9", "0",
                     "á", "é", "í", "ó", "ú", "ñ", "ü"]
 
+
+# welcome message
+print("Welcome to the word frequency counter! Published under MIT Lisence, see LICENSE.md for more information. (c) 2026 golden-fern")
+print("The selected language affects which characters are considered \"valid\" as part of a word. If your document has multiple languages, enter the language codes for every language used.")
+print("Currently usable language codes: \nen - English\nes - Spanish")
+
 # removes any chars not in the allowed_chars list from the file
 def remove_banned_chars(text):
     new_file_content = ""
@@ -31,10 +37,6 @@ def file_to_words(filepath="default_input.txt"):
     return output
 
 def select_language():
-    selecting_language = True
-    print("The selected language affects which characters are considered \"valid\" as part of a word. If your document has multiple languages, enter the language codes for every language used.")
-    print("Currently usable language codes: \nen - English\nes - Spanish")
-
     lang = input("Language/s: ")
     if "en" in lang:
         allowed_chars.extend(allowed_chars_en)
@@ -66,3 +68,5 @@ while active:
     output_path = f"{filepath}.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(desc_words, f, ensure_ascii=False, indent=4)
+
+    print(f"Finished counting {filepath}. Output saved to {filepath}.json")
