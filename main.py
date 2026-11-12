@@ -66,7 +66,3 @@ while active:
     output_path = f"{filepath}.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(desc_words, f, ensure_ascii=False, indent=4)
-
-    done = (input("Type X to close the program")).lower()
-    if input == "X":
-        active = False
