@@ -18,6 +18,7 @@ allowed_chars_es = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
 print("Welcome to the word frequency counter! Published under MIT Lisence, see LICENSE.md for more information. (c) 2026 golden-fern")
 print("The selected language affects which characters are considered \"valid\" as part of a word. If your document has multiple languages, enter the language codes for every language used.")
 print("Currently usable language codes: \nen - English\nes - Spanish")
+print("Please check the README for detailed usage instructions!")
 
 # removes any chars not in the allowed_chars list from the file
 def remove_banned_chars(text):
@@ -45,6 +46,7 @@ def select_language():
 
 active = True
 while active:
+    print("Opening new file.")
     words_list_unordered = []
     words_dict = {}
 
