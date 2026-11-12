@@ -37,9 +37,9 @@ def select_language():
 
     lang = input("Language/s: ")
     if "en" in lang:
-        allowed_chars += allowed_chars_en
+        allowed_chars.append(allowed_chars_en)
     if "es" in lang:
-        allowed_chars += allowed_chars_es
+        allowed_chars.append(allowed_chars_es)
         
 
 active = True
@@ -50,13 +50,9 @@ while active:
     select_language()
 
     # filepath selector
-    print("You can either make a new .txt file in this folder with your text in it or you can paste your text into default_input.txt. If you paste your input into default_input, type 'n'.")
-    custom_path = (input("Use a custom filepath? y/n: ")).lower()
-    if custom_path == "y":
-        filepath = input("Filepath: ")
-        words_list_unordered = file_to_words(filepath)
-    elif custom_path == "n":
-        words_list_unordered = file_to_words()
+    filepath = input("Filepath: ")
+    words_list_unordered = file_to_words(filepath)
+    
 
     # coutns the frequency of words
     for i in words_list_unordered:

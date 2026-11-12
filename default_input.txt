@@ -1,1 +1,1 @@
-Example Sentence. These are banned characters: /,.<>\| and will not show up in the output. áéíóúñ
+You can copy+paste your input into this file, or make a new .txt file to use. This is the default filepath, so if you do not specify a filepath this one will be used.
