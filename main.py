@@ -50,7 +50,8 @@ while active:
     select_language()
 
     # filepath selector
-    custom_path = input("Custom filepath? y/n: ")
+    print("You can either make a new .txt file in this folder with your text in it or you can paste your text into default_input.txt. If you paste your input into default_input, type 'n'.")
+    custom_path = (input("Use a custom filepath? y/n: ")).lower()
     if custom_path == "y":
         filepath = input("Filepath: ")
         words_list_unordered = file_to_words(filepath)
@@ -71,6 +72,6 @@ while active:
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(desc_words, f, ensure_ascii=False, indent=4)
 
-    done = input("Type X to close the program")
+    done = (input("Type X to close the program")).lower()
     if input == "X":
         active = False
