@@ -5,7 +5,7 @@ How to run with run.bat(WINDOWS ONLY):
 2. Unzip to a folder.
 3. Double click run.bat and click 'trust' on the prompt.
 
-NOTE: a .bat file is a type of file on Windows that automatically executes code in the command prompt. They can be dangerous if you do not know to contents. You can read all commands in a .bat file by right-clicking and opening it in notepad. This one is just an automated way to do the same thing as running via Terminal.
+NOTE: a .bat file is a type of file on Windows that automatically executes code in the command prompt. They can be dangerous if you do not know the contents of the file. You can read all commands in a .bat file by right-clicking and opening it in notepad. This one is just an automated way to do the same thing as running via Terminal, so all it contains is the command "py main.py"
 
 How to run with VSCode:
 1. Download the source code as a .zip file.
